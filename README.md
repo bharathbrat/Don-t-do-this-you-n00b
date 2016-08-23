@@ -11,3 +11,5 @@ An effort to capture some common mistakes n00b DevOps / SysAd (Anyone who f'd up
 * When trying to start/stop/restart a bunch of services using a for loop; re-check for spaces. /etc/init.d has halt which takes no arguments and shuts down the system.
 Example: ```for i in `ls /etc/init.d/ redis-*`; do sudo $i status; done``` will shutdown the system
 P.S: Don’t run the above code you *n00b!*
+
+* *DO NOT* rebooot a Virtual Machine while it is doing a snapshot. This *will* keep you up all night, and could be a Resume Generating Event.
