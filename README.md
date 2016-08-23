@@ -1,6 +1,6 @@
 # Don’t do this you n00b!
 
-An effort to capture some common mistakes n00b DevOps will do, which will hopefully lead to avoiding these mistakes. Please attach relevant incidents to show what was the effect. :-)
+An effort to capture some common mistakes n00b DevOps / SysAd (Anyone who f'd up on a shell) will do, which will hopefully lead to avoiding these mistakes. Please attach relevant incidents to show what was the effect. :-)
 
 * If you have the habit of shutting down your system using “sudo poweroff” etc. STOP! At the end of the day when you want to go home, imagine running “sudo poweroff” thinking it is your system but it happens on a production system. You could end up going home forever if you choose the right production system. (I urge you not to!).
 
